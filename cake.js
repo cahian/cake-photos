@@ -1,14 +1,13 @@
 require("dotenv").config();
 
 const express = require("express");
-const router = express.Router();
-
 const unsplash = require("unsplash-js");
+const axios = require("axios");
+
+const router = express.Router();
 const images = unsplash.createApi({
   accessKey: process.env.UNSPLASH_KEY,
 });
-
-const axios = require("axios");
 
 router.get("/", (req, res) => {
   images.photos
