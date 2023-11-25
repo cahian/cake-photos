@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
       } else {
         axios({
           method: "GET",
-          url: result.response.urls.raw,
+          url: result.response.urls.regular, // regular loads faster
           responseType: "stream",
         }).then((photo) => {
           photo.data.pipe(res);
