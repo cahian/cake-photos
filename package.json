@@ -1,0 +1,22 @@
+{
+  "name": "cake-photos",
+  "version": "1.0.0",
+  "description": "https://github.com/cahian/cake-photos.git",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cahian/cake-photos.git"
+  },
+  "author": "Cahian Freire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cahian/cake-photos/issues"
+  },
+  "homepage": "https://github.com/cahian/cake-photos#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
