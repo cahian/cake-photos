@@ -1,6 +1,6 @@
-# cake-photos
+# Cake Photos
 
-Every day a photo of a cake
+Hhmmmmmmmmm cake
 
 ## Configuration
 
